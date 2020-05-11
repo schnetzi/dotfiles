@@ -1,0 +1,18 @@
+# Git aliases
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias go='git checkout'
+alias gs='git status'
+alias gu='git push -u origin HEAD'
+alias gclear='git remote prune origin'
+
+# Easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec ${SHELL} -l"
+
+# Get macOS software updates and update homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g

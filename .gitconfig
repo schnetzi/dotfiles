@@ -1,0 +1,6 @@
+[user]
+	name = schnetzi
+	email = schnetzi@users.noreply.github.com
+[core]
+	autocrlf = input
+	excludesfile = /Users/paul/.gitignore_global
