@@ -3,4 +3,5 @@
 	email = schnetzi@users.noreply.github.com
 [core]
 	autocrlf = input
+	editor = vim
 	excludesfile = /Users/paul/.gitignore_global
