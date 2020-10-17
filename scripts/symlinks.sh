@@ -31,6 +31,7 @@ function linkDotfile {
   ln -s ${dotfilesDir}/${1} ${dest}
 }
 
+linkDotfile .aliases
 linkDotfile .gitconfig
 linkDotfile .gitignore_global
 linkDotfile .vimrc
