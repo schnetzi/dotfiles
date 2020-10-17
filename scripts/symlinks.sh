@@ -5,7 +5,7 @@
 # Up from scripts dir
 cd ..
 
-dotfilesDir=$(pwd)
+dotfilesDir=../$(pwd)
 
 function linkDotfile {
   dest="${HOME}/${1}"

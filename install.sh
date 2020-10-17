@@ -1,3 +1,1 @@
-scripts/symlinks.sh
-
-source ~/.zshrc
+sh ./scripts/symlinks.sh
