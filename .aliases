@@ -10,9 +10,13 @@ alias gclear='git remote prune origin'
 # Easier navigation
 alias ..="cd .."
 alias ...="cd ../.."
+alias p="cd ~/projects"
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
 
 # Get macOS software updates and update homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g'
+
+# local IP
+alias localip="ipconfig getifaddr en0"
