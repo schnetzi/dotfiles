@@ -20,3 +20,7 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # local IP
 alias localip="ipconfig getifaddr en0"
+
+# xdebug
+alias dix="phpbrew ext disable xdebug"
+alias enx="phpbrew ext enable xdebug"
