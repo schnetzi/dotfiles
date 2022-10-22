@@ -34,6 +34,7 @@ function linkDotfile {
 linkDotfile .aliases
 linkDotfile .gitconfig
 linkDotfile .gitignore_global
+linkDotfile .nvm_auto_version
 linkDotfile .vimrc
 linkDotfile .zshrc
 
